@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>LKJ PERCETAKAN</title>
+	
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="https://rawcdn.githack.com/LKJPercetakan/percetakan/f8249fa54f431af30850b0a4c2e58e02a9cdca58/index.html">
+      <img src="data:image/png;base64,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" alt="" width="36" height="24" class="d-inline-block align-text-top">  LKJ PERCETAKAN
+    </a>
+  </div>
+</nav>
+<nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/LKJ/Desktop/new%201.html">List Harga</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Order 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6281290125620&text=saya mau pesan Undangan">Undangan</a>
+            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6281290125620&text=saya mau pesan Yasin">Yasin</a>
+            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6281290125620&text=saya mau pesan kop surat">Kop Surat</a>
+</nav>
+  </head>
+  
+  
+    
+  <body>
+<div class="card bg-dark text-black">
+  <img src="https://img.okezone.com/content/2020/08/19/16/2264470/update-google-maps-kini-tampilkan-gambar-lebih-detail-v7eYh5BQ4Z.jpg" class="card-img" alt="..."> 
+  <a class="card-img" href="https://www.google.co.id/maps/place/LKJ+PERCETAKAN/@-6.241731,106.7798091,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f1de9ef717e1:0xa3afc9056b6e9830!8m2!3d-6.2417363!4d106.7819978?hl=id" style="black">
+</nav>
+
+  <div class="card-img-overlay">
+    <h5 class="card-title">TOKO OFFLINE LKJ</h5>
+    <p class="card-text">JALAN MENUJU TOKO OFFLINE LKJ</p>	
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
